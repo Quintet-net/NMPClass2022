@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 173.0, 107.0, 1163.0, 778.0 ],
+		"rect" : [ 87.0, 217.0, 1291.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 1,
-					"id" : "obj-4",
-					"linecount" : 11,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 734.0, 37.0, 150.0, 154.0 ],
-					"text" : "I think Georg wanted to separate the controlling devices from the audio output and create this qn.Client as an interface to exchange data and play the instruments of the others.  \n(But I don'r want to put words on anyone's mouthhhhhhhhhhhh)"
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 24.0, 432.5, 115.0, 22.0 ],
+					"text" : "/grains/number 100."
 				}
 
 			}
@@ -66,11 +65,11 @@
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 635.0, 50.0, 22.0 ],
-					"text" : "route -1"
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 151.0, 646.0, 81.0, 22.0 ],
+					"text" : "o.route /Alicia"
 				}
 
 			}
@@ -81,8 +80,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 577.0, 67.0, 22.0 ],
-					"text" : "route Alicia"
+					"patching_rect" : [ 151.0, 588.0, 55.0, 22.0 ],
+					"text" : "zl.slice 2"
 				}
 
 			}
@@ -135,12 +134,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 530.0, 50.0, 22.0 ],
-					"text" : "-1"
+					"patching_rect" : [ 382.0, 530.0, 50.0, 35.0 ],
+					"text" : "names netti"
 				}
 
 			}
@@ -151,7 +151,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 530.0, 50.0, 22.0 ]
+					"patching_rect" : [ 266.0, 593.0, 221.0, 22.0 ],
+					"text" : "Alicia -1 /Alicia/grains/period 236.22"
 				}
 
 			}
@@ -175,7 +176,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 320.0, 470.0, 272.0, 22.0 ],
-					"text" : "mxj qn.Client 172.24.200.126 9001 @name Alicia"
+					"text" : "mxj qn.Client 172.24.200.127 9001 @name Alicia"
 				}
 
 			}
@@ -216,32 +217,15 @@
 					"maxclass" : "bpatcher",
 					"name" : "ControlPanel_GranulatorAlicia.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 1,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 31.0, 692.0, 335.0 ],
+					"patching_rect" : [ 32.0, 39.0, 661.0, 318.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -265,7 +249,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-23", 0 ]
+					"source" : [ "obj-23", 1 ]
 				}
 
 			}
@@ -273,6 +257,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -322,25 +313,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-10" : [ "live.dial[5]", " ", 0 ],
-			"obj-1::obj-21" : [ "live.dial[1]", "gain", 0 ],
-			"obj-1::obj-26" : [ "live.dial[2]", " ", 0 ],
-			"obj-1::obj-27" : [ "live.dial[6]", " ", 0 ],
-			"obj-1::obj-34" : [ "live.dial[26]", " ", 0 ],
-			"obj-1::obj-35" : [ "live.dial[18]", " ", 0 ],
-			"obj-1::obj-38" : [ "live.dial[19]", " ", 0 ],
-			"obj-1::obj-46" : [ "live.dial[20]", " ", 0 ],
-			"obj-1::obj-47" : [ "live.dial[17]", "gain (dB)", 0 ],
-			"obj-1::obj-50" : [ "live.dial[9]", " ", 0 ],
-			"obj-1::obj-54" : [ "live.dial[21]", " ", 0 ],
-			"obj-1::obj-57" : [ "live.dial[22]", " ", 0 ],
-			"obj-1::obj-59" : [ "live.dial[27]", " ", 0 ],
-			"obj-1::obj-74" : [ "button", "button", 0 ],
-			"obj-1::obj-75" : [ "live.dial[24]", " ", 0 ],
-			"obj-1::obj-78" : [ "live.dial[25]", " ", 0 ],
-			"obj-1::obj-8" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-1::obj-83" : [ "live.tab", "live.tab", 0 ],
-			"obj-1::obj-88" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-5::obj-10" : [ "live.dial[43]", " ", 0 ],
 			"obj-5::obj-21" : [ "live.dial[40]", "gain", 0 ],
 			"obj-5::obj-26" : [ "live.dial[31]", " ", 0 ],
@@ -393,19 +365,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ControlPanel_GranulatorAlicia.maxpat",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Backgroundgranulator_Network.maxpat",
 				"bootpath" : "~/Desktop/LucasPatches",
 				"patcherrelativepath" : ".",
@@ -416,6 +375,12 @@
 				"name" : "spat5.monitor.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/spat5/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -455,15 +420,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.osc.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "spat5.cpu.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.hostinfos.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.prepend.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -516,6 +481,10 @@
 			}
 , 			{
 				"name" : "mxj.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ],
