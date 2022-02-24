@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 188.0, 120.0, 740.0, 767.0 ],
+		"rect" : [ 139.0, 135.0, 740.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,13 +52,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 506.0, 50.0, 35.0 ],
-					"text" : "/start_ratio 1.7"
+					"patching_rect" : [ 234.0, 506.0, 50.0, 62.0 ],
+					"text" : "/bufferWeights 0.29 0.06"
 				}
 
 			}
@@ -87,13 +87,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 605.0, 50.0, 35.0 ],
-					"text" : "/start_ratio 1.7"
+					"patching_rect" : [ 256.0, 605.0, 50.0, 62.0 ],
+					"text" : "/bufferWeights 0.29 0.06"
 				}
 
 			}
@@ -193,13 +193,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 454.0, 50.0, 35.0 ],
-					"text" : "names Tam"
+					"patching_rect" : [ 384.0, 454.0, 50.0, 22.0 ],
+					"text" : "names"
 				}
 
 			}
@@ -211,7 +210,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 398.0, 702.0, 221.0, 22.0 ],
-					"text" : "Tam2 -1 /start_ratio 1.7"
+					"text" : "Tam2 -1 /bufferWeights 0.29 0.06"
 				}
 
 			}
@@ -277,8 +276,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, -6.0, 555.0, 299.0 ],
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 3.5, 6.0, 555.0, 299.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -390,26 +389,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-107::obj-17" : [ "range[4]", "range", 0 ],
-			"obj-5::obj-107::obj-24" : [ "Vertical", "Vertical", 0 ],
-			"obj-5::obj-107::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-5::obj-107::obj-44" : [ "Scale", "Scale", 0 ],
-			"obj-5::obj-107::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-5::obj-107::obj-50" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
-			"obj-5::obj-107::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-5::obj-107::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-5::obj-107::obj-54" : [ "Bound", "Bound", 0 ],
-			"obj-5::obj-107::obj-56::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
-			"obj-5::obj-107::obj-68" : [ "Horizontal", "Horizontal", 0 ],
-			"obj-5::obj-107::obj-94" : [ "Interpolation", "Interpolation", 0 ],
-			"obj-5::obj-117::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
-			"obj-5::obj-117::obj-16" : [ "Toggle display", "Toggle display", 0 ],
-			"obj-5::obj-117::obj-1::obj-23" : [ "gswitch2[3]", "gswitch2", 0 ],
-			"obj-5::obj-117::obj-2" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
-			"obj-5::obj-117::obj-3" : [ "toggle", "toggle", 0 ],
-			"obj-5::obj-117::obj-41" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
-			"obj-5::obj-117::obj-50" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
-			"obj-5::obj-117::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-5::obj-190" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-5::obj-33::obj-10" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-5::obj-33::obj-15" : [ "live.numbox[1]", "live.numbox", 0 ],
@@ -417,13 +396,6 @@
 			"obj-5::obj-33::obj-3" : [ "live.tab", "live.tab", 0 ],
 			"obj-5::obj-33::obj-7" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-5::obj-117::obj-41" : 				{
-					"parameter_longname" : "pictctrl[9]"
-				}
 
 			}
 ,
@@ -448,73 +420,6 @@
 				"name" : "zero.menu.format.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
 				"patcherrelativepath" : "../../../Packages/zero/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "front-take6-1-1-6.mov",
-				"bootpath" : "~/Downloads/PH1-patch-20140514/VIDEO SAMPLES",
-				"patcherrelativepath" : "../../../../../Downloads/PH1-patch-20140514/VIDEO SAMPLES",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.interpol8r.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "video-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-outputdim.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "exact_menu.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.projectr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-context.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-disable.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -596,6 +501,14 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "zero.announce.mxo",
 				"type" : "iLaX"
 			}
@@ -620,10 +533,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.expr.codebox.mxo",
 				"type" : "iLaX"
 			}
@@ -645,10 +554,6 @@
 			}
 , 			{
 				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
 				"type" : "iLaX"
 			}
 , 			{

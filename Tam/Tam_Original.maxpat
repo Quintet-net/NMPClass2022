@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 651.0, 172.0, 1063.0, 881.0 ],
+		"rect" : [ 280.0, 87.0, 1551.0, 881.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1791.0, 565.0, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-69",
 					"linecount" : 2,
@@ -80,12 +91,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-53",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1407.0, 504.0, 30.0, 30.0 ]
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 1361.0, 504.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -93,7 +104,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -127,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 1403.0, 572.0, 319.0, 22.0 ],
+					"patching_rect" : [ 1392.0, 555.0, 319.0, 22.0 ],
 					"text" : "o.route /start_ratio /duration /rate /envelope /bufferWeights"
 				}
 
@@ -143,8 +154,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 1534.5, 693.499999463558197, 56.0, 22.0 ],
-					"sig" : 36.0
+					"patching_rect" : [ 1802.0, 632.0, 56.0, 22.0 ],
+					"sig" : 0.759999990463257
 				}
 
 			}
@@ -179,13 +190,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-212",
-					"linecount" : 3,
+					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2313.0, 658.423069357872009, 115.0, 49.0 ],
-					"text" : "0.860558 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 2313.0, 658.423069357872009, 115.0, 116.0 ],
+					"text" : "0. 0.717131 0.494024 0.366534 0.394422 0.422311 0.422311 0.416335 0.410359 0.404382 1. 0.709163 0.374502 0.613546 0."
 				}
 
 			}
@@ -613,7 +624,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 1539.5, 645.0, 133.038463830947876, 22.0 ],
-					"sig" : 29843.0
+					"sig" : 5000.0
 				}
 
 			}
@@ -680,7 +691,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 1550.5, 604.0, 56.0, 22.0 ],
-					"sig" : 417.0
+					"sig" : 1.0
 				}
 
 			}
@@ -717,7 +728,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2207.0, 494.5, 856.461524248123169, 125.5 ],
+					"patching_rect" : [ 2217.0, 492.0, 351.461524248123169, 109.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 15,
 					"varname" : "multislider"
@@ -741,15 +752,15 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-211",
-					"linecount" : 7,
+					"linecount" : 17,
 					"maxclass" : "o.compose",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2207.0, 758.0, 600.0, 106.0 ],
-					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 100, 117, 114, 97, 116, 105, 111, 110, 0, 0, 0, 44, 105, 0, 0, -1, -1, -1, -1, 0, 0, 0, 16, 47, 114, 97, 116, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 115, 116, 97, 114, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 112, 97, 110, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 97, 109, 112, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 120, 115, 104, 97, 112, 101, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 121, 115, 104, 97, 112, 101, 0, 44, 105, 0, 0, -1, -1, -1, -5 ],
-					"saved_bundle_length" : 160,
-					"text" : "/duration : -1,\n/rate : 1,\n/start : 0,\n/pan : 0,\n/amp : 1,\n/xshape : 0,\n/yshape : -5"
+					"patching_rect" : [ 2207.0, 758.0, 600.0, 242.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 84, 47, 102, 105, 108, 101, 47, 110, 97, 109, 101, 0, 0, 44, 115, 0, 0, 84, 97, 109, 58, 47, 85, 115, 101, 114, 115, 47, 100, 117, 121, 47, 68, 111, 99, 117, 109, 101, 110, 116, 115, 47, 77, 97, 120, 32, 56, 47, 80, 97, 99, 107, 97, 103, 101, 115, 47, 104, 102, 109, 116, 45, 112, 101, 100, 97, 103, 111, 103, 121, 47, 109, 101, 100, 105, 97, 47, 56, 48, 56, 47, 0, 0, 0, 0, 0, 0, 0, 24, 47, 102, 105, 108, 101, 47, 116, 121, 112, 101, 0, 0, 44, 115, 0, 0, 102, 111, 108, 100, 0, 0, 0, 0, 0, 0, 0, 20, 47, 110, 98, 117, 102, 102, 101, 114, 115, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 15, 0, 0, 0, -28, 47, 110, 97, 109, 101, 108, 105, 115, 116, 0, 0, 0, 44, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 0, 0, 0, 0, 99, 108, 95, 104, 105, 104, 97, 116, 46, 97, 105, 102, 0, 0, 0, 0, 99, 108, 97, 118, 101, 115, 46, 97, 105, 102, 0, 0, 99, 111, 110, 103, 97, 49, 46, 97, 105, 102, 0, 0, 99, 111, 119, 98, 101, 108, 108, 46, 97, 105, 102, 0, 99, 114, 97, 115, 104, 99, 121, 109, 46, 97, 105, 102, 0, 0, 0, 0, 104, 97, 110, 100, 99, 108, 97, 112, 46, 97, 105, 102, 0, 0, 0, 0, 104, 105, 95, 99, 111, 110, 103, 97, 46, 97, 105, 102, 0, 0, 0, 0, 104, 105, 103, 104, 116, 111, 109, 46, 97, 105, 102, 0, 107, 105, 99, 107, 49, 46, 97, 105, 102, 0, 0, 0, 107, 105, 99, 107, 50, 46, 97, 105, 102, 0, 0, 0, 109, 97, 114, 97, 99, 97, 115, 46, 97, 105, 102, 0, 111, 112, 101, 110, 95, 104, 104, 46, 97, 105, 102, 0, 114, 105, 109, 115, 104, 111, 116, 46, 97, 105, 102, 0, 115, 110, 97, 114, 101, 46, 97, 105, 102, 0, 0, 0, 116, 111, 109, 49, 46, 97, 105, 102, 0, 0, 0, 0, 0, 0, 0, -104, 47, 108, 101, 110, 103, 116, 104, 115, 0, 0, 0, 0, 44, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 0, 64, -94, 48, 0, 0, 0, 0, 0, 64, -108, 124, 0, 0, 0, 0, 0, 64, -58, 112, 0, 0, 0, 0, 0, 64, -51, 72, 0, 0, 0, 0, 1, 64, -8, 0, 79, -1, -1, -1, -1, 64, -49, 14, -128, 0, 0, 0, 0, 64, -66, -56, 0, 0, 0, 0, 0, 64, -63, 48, 0, 0, 0, 0, 0, 64, -34, 55, -128, 0, 0, 0, 0, 64, -30, -94, 0, 0, 0, 0, 0, 64, -111, -76, 0, 0, 0, 0, 0, 64, -39, -68, 0, 0, 0, 0, 0, 64, -125, 0, 0, 0, 0, 0, 0, 64, -81, -16, 0, 0, 0, 0, 0, 64, -49, 8, 0, 0, 0, 0, 0, 0, 0, 0, 32, 47, 98, 117, 102, 102, 101, 114, 110, 97, 109, 101, 0, 44, 115, 0, 0, 49, 48, 48, 54, 45, 99, 111, 109, 98, 105, 110, 101, 100, 0, 0, 0, 0, 0, 0, 16, 47, 121, 115, 104, 97, 112, 101, 0, 44, 105, 0, 0, -1, -1, -1, -5, 0, 0, 0, 16, 47, 120, 115, 104, 97, 112, 101, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 97, 109, 112, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16, 47, 112, 97, 110, 0, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 115, 116, 97, 114, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 47, 114, 97, 116, 101, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 47, 100, 117, 114, 97, 116, 105, 111, 110, 0, 0, 0, 44, 105, 0, 0, -1, -1, -1, -1 ],
+					"saved_bundle_length" : 724,
+					"text" : "/file/name : \"Tam:/Users/duy/Documents/Max 8/Packages/hfmt-pedagogy/media/808/\",\n/file/type : \"fold\",\n/nbuffers : 15,\n/namelist : [\"cl_hihat.aif\", \"claves.aif\", \"conga1.aif\", \"cowbell.aif\", \"crashcym.aif\", \"handclap.aif\", \"hi_conga.aif\", \"hightom.aif\", \"kick1.aif\", \"kick2.aif\", \"maracas.aif\", \"open_hh.aif\", \"rimshot.aif\", \"snare.aif\", \"tom1.aif\"],\n/lengths : [2328., 1311., 11488., 14992, 98309, 15901., 7880., 8800., 30942., 38160., 1133., 26352., 608., 4088., 15888.],\n/buffername : \"1006-combined\",\n/yshape : -5,\n/xshape : 0,\n/amp : 1,\n/pan : 0,\n/start : 0,\n/rate : 1,\n/duration : -1"
 				}
 
 			}
@@ -901,29 +912,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "## VIZZIE video projector interface ##",
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-117",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "vz.projectr.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 866.0, 744.0, 168.0, 108.0 ],
-					"prototypename" : "pixl",
-					"varname" : "projectr",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-116",
 					"maxclass" : "flonum",
@@ -978,60 +966,6 @@
 ,
 					"text" : "pattrstorage",
 					"varname" : "u913007873"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "## Resample and interpolate a video ##",
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-107",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "vz.interpol8r.maxpat",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 861.5, 602.0, 252.0, 130.0 ],
-					"prototypename" : "pixl",
-					"varname" : "interpol8r",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "front-take6-1-1-6.mov",
-								"filename" : "front-take6-1-1-6.mov",
-								"filekind" : "moviefile",
-								"id" : "u813005508",
-								"loop" : 1,
-								"content_state" : 								{
-									"vol" : 0.2,
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"drawto" : "",
-					"id" : "obj-105",
-					"loop" : 1,
-					"maxclass" : "jit.playlist",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "jit_matrix", "", "dictionary" ],
-					"output_texture" : 0,
-					"parameter_enable" : 0,
-					"patching_rect" : [ 936.0, 536.0, 150.0, 30.0 ]
 				}
 
 			}
@@ -1430,13 +1364,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 630.0, 187.0, 35.0 ],
-					"text" : "disconnected tcp 127.0.0.1 53334"
+					"patching_rect" : [ 69.0, 630.0, 187.0, 22.0 ],
+					"text" : "Forward Tam2 Tam2"
 				}
 
 			}
@@ -1643,12 +1576,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.231890618801117, 370.0, 99.275362730026245, 22.0 ],
-					"text" : "names"
+					"patching_rect" : [ 750.231890618801117, 370.0, 99.275362730026245, 35.0 ],
+					"text" : "disconnected tcp 127.0.0.1 -1"
 				}
 
 			}
@@ -1871,18 +1805,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"attr" : "vol",
-					"id" : "obj-118",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 936.0, 502.0, 150.0, 22.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1933,20 +1855,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-204", 1 ],
 					"source" : [ "obj-104", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
-					"source" : [ "obj-107", 0 ]
 				}
 
 			}
@@ -2010,13 +1918,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
 					"source" : [ "obj-121", 0 ]
 				}
@@ -2040,14 +1941,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-125", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 2 ],
-					"midpoints" : [ 727.05072546005249, 725.0, 1018.465945309400581, 725.0, 1018.465945309400581, 638.0, 964.200000000000045, 638.0 ],
-					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -2887,272 +2780,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-107::obj-17" : [ "range[4]", "range", 0 ],
-			"obj-107::obj-24" : [ "Vertical", "Vertical", 0 ],
-			"obj-107::obj-41" : [ "pictctrl[6]", "pictctrl[1]", 0 ],
-			"obj-107::obj-44" : [ "Scale", "Scale", 0 ],
-			"obj-107::obj-47" : [ "pictctrl[7]", "pictctrl[1]", 0 ],
-			"obj-107::obj-50" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
-			"obj-107::obj-51" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
-			"obj-107::obj-53" : [ "pictctrl[4]", "pictctrl[1]", 0 ],
-			"obj-107::obj-54" : [ "Bound", "Bound", 0 ],
-			"obj-107::obj-56::obj-23" : [ "gswitch2[2]", "gswitch2", 0 ],
-			"obj-107::obj-68" : [ "Horizontal", "Horizontal", 0 ],
-			"obj-107::obj-94" : [ "Interpolation", "Interpolation", 0 ],
-			"obj-117::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
-			"obj-117::obj-16" : [ "Toggle display", "Toggle display", 0 ],
-			"obj-117::obj-1::obj-23" : [ "gswitch2[3]", "gswitch2", 0 ],
-			"obj-117::obj-2" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
-			"obj-117::obj-3" : [ "toggle", "toggle", 0 ],
-			"obj-117::obj-41" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
-			"obj-117::obj-50" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
-			"obj-117::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-190" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-33::obj-10" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-33::obj-15" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-33::obj-19" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-33::obj-3" : [ "live.tab", "live.tab", 0 ],
-			"obj-33::obj-7" : [ "live.numbox", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-117::obj-41" : 				{
-					"parameter_longname" : "pictctrl[9]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "zero.menu.format.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
-				"patcherrelativepath" : "../../../Packages/zero/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "front-take6-1-1-6.mov",
-				"bootpath" : "~/Downloads/PH1-patch-20140514/VIDEO SAMPLES",
-				"patcherrelativepath" : "../../../../../Downloads/PH1-patch-20140514/VIDEO SAMPLES",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.interpol8r.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "video-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-outputdim.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "exact_menu.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.projectr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-context.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-disable.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.random.weighted~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/random",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.dist.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.loadbang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.doc.handler.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.o.gui.dropfile.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/gui",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/gui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.granubuf~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/sound-engines/samples",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/sound-engines/samples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "granubuf.pan.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shot-ms-phasor.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase.divider~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spat5.around.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "zero.announce.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zero.browse.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zero.resolve.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.cond.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.if.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.change.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.spat~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.oper.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
