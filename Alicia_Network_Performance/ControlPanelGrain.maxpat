@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 346.0, 69.0, 1587.0, 804.0 ],
+		"rect" : [ 697.0, 277.0, 1587.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 14.382143691413887, 27.0, 149.0, 22.0 ],
+					"text" : "sprintf /Alicia/grains%s %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
 					"index" : 1,
@@ -53,13 +65,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 559.0, 50.0, 76.0 ],
-					"text" : "/Alicia/grains /period 718.661417"
+					"patching_rect" : [ 485.0, 559.0, 321.482142999999951, 22.0 ],
+					"text" : "/Alicia/grains/period/variation -88.94"
 				}
 
 			}
@@ -761,11 +772,11 @@
 				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.482142999999951, 471.0, 124.0, 22.0 ],
-					"text" : "prepend #1/grains"
+					"patching_rect" : [ 428.482142999999951, 471.0, 149.0, 22.0 ],
+					"text" : "sprintf #1/grains%s %s"
 				}
 
 			}
@@ -864,11 +875,11 @@
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.482142999999951, 182.0, 124.0, 22.0 ],
-					"text" : "prepend #1/grains"
+					"patching_rect" : [ 256.482142999999951, 182.0, 149.0, 22.0 ],
+					"text" : "sprintf #1/grains%s %s"
 				}
 
 			}
