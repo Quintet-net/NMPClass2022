@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 135.0, 740.0, 767.0 ],
+		"rect" : [ 906.0, 136.0, 740.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -198,7 +198,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 384.0, 454.0, 50.0, 22.0 ],
-					"text" : "names"
+					"text" : "-1"
 				}
 
 			}
@@ -233,8 +233,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 322.0, 394.0, 239.0, 22.0 ],
-					"text" : "mxj qn.Client 127.0.0.1 9000 @name Tam2"
+					"patching_rect" : [ 322.0, 394.0, 273.0, 22.0 ],
+					"text" : "mxj qn.Client 172.24.200.127 9000 @name Tam2"
 				}
 
 			}
@@ -242,7 +242,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 26.0, 413.0, 79.0, 22.0 ],
@@ -273,11 +273,12 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Tam_control.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "FullPacket" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.5, 6.0, 555.0, 299.0 ],
+					"varname" : "Tam_control",
 					"viewvisibility" : 1
 				}
 
@@ -404,14 +405,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Tam_control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
+				"bootpath" : "~/Desktop/NMPClass2022/Tam",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tam_Original.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
+				"bootpath" : "~/Desktop/NMPClass2022/Tam",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -419,93 +420,89 @@
 , 			{
 				"name" : "zero.menu.format.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
-				"patcherrelativepath" : "../../../Packages/zero/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/zero/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.random.weighted~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/random",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/random",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.dist.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.loadbang.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/internal",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.doc.handler.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/internal",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.o.gui.dropfile.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/gui",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/gui",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/gui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.granubuf~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/sound-engines/samples",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/sound-engines/samples",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/sound-engines/samples",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "granubuf.pan.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.phase~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/signal",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shot-ms-phasor.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat.phase.divider~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../../Packages/hfmt-pedagogy/patchers/signal",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.around.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -525,11 +522,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxo",
+				"name" : "o.cond.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.cond.mxo",
+				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -554,6 +551,10 @@
 			}
 , 			{
 				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
 				"type" : "iLaX"
 			}
 , 			{
