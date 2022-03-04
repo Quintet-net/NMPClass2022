@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 25.0, 79.0, 1081.0, 687.0 ],
+		"rect" : [ 34.0, 87.0, 1712.0, 923.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 1139.0, 708.333319902420044, 90.0, 22.0 ],
+					"patching_rect" : [ 1150.0, 708.333319902420044, 90.0, 22.0 ],
 					"text" : "o.route /Xerxes"
 				}
 
@@ -89,8 +89,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1070.0, 749.0, 105.0, 22.0 ],
-					"text" : "slicerLucasOutput",
+					"patching_rect" : [ 1070.0, 749.0, 139.0, 22.0 ],
+					"text" : "simpleslicerLucasOutput",
 					"varname" : "slicerLucasOutput"
 				}
 
@@ -121,13 +121,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 8,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 741.0, 441.0, 50.0, 116.0 ],
-					"text" : "/Tam/bufferWeights 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 741.0, 441.0, 1338.0, 35.0 ],
+					"text" : "/Tam/envelope 5000. 0. 1. 0. 0.086667 0 319.148936 0.82 0 1476.06383 0.36 0 2207.446809 0.873333 0 2234.042553 0.526667 0 2553.191489 0.4 0 2553.191489 1. 0 3164.893617 0.953333 0 3763.297872 0.24 0 5000. 1. 0 5000. 0.58 0 5000. 0. 0 linear"
 				}
 
 			}
@@ -888,24 +888,24 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "2-Step Flux Beat 01.caf",
-				"bootpath" : "~/Desktop/jam",
-				"patcherrelativepath" : "../../../../Desktop/jam",
-				"type" : "CAF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "CI2Controls.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/netti",
 				"patcherrelativepath" : "./netti",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ControlPanelGrain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
 				"patcherrelativepath" : "./Alicia_Network_Performance",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Diagonal.txt",
+				"bootpath" : "/Users/Shared/Max 8/Packages/Quintet.net/patchers/Library/Data/Keyboard Layout",
+				"patcherrelativepath" : "../../Packages/Quintet.net/patchers/Library/Data/Keyboard Layout",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -915,100 +915,51 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Max Compressor.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Max Compressor.amxd_20220218.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OutputGrain_Network.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
 				"patcherrelativepath" : "./Alicia_Network_Performance",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tam_Original.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/Tam",
 				"patcherrelativepath" : "./Tam",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tam_control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/Tam",
 				"patcherrelativepath" : "./Tam",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TheWholeGodammThing.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/netti",
 				"patcherrelativepath" : "./netti",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bve.grainlooper.amxd",
-				"bootpath" : "~/Desktop/networkLucas",
-				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas",
+				"patcherrelativepath" : "./networksimpleSlicerLucas",
 				"type" : "amxd",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bve.grainlooper.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "chicken_improviser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/netti",
 				"patcherrelativepath" : "./netti",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cnmat.loadbang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/internal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.o.gui.dropfile.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/gui",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/gui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase.divider~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/signal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/signal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.audiofilesin.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
-				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "./networksimpleSlicerLucas/Fluid Corpus Manipulation/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1038,14 +989,10 @@
 			}
 , 			{
 				"name" : "fluid.concataudiofiles.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
-				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "./networksimpleSlicerLucas/Fluid Corpus Manipulation/patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.libmanipulation.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "fluid.list2buf.mxo",
@@ -1053,23 +1000,16 @@
 			}
 , 			{
 				"name" : "fluid.plotter.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
-				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/jsui",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "./networksimpleSlicerLucas/Fluid Corpus Manipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fluid.waveform~.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
-				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/jsui",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "./networksimpleSlicerLucas/Fluid Corpus Manipulation/jsui",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "granubuf.pan.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/code",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -1082,51 +1022,13 @@
 			}
 , 			{
 				"name" : "mySoundController.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Yuri_NMP_2022",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/Yuri_NMP_2022",
 				"patcherrelativepath" : "./Yuri_NMP_2022",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.change.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.cond.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.doc.handler.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/internal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.granubuf~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/sound-engines/samples",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/sound-engines/samples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.if.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1134,70 +1036,26 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.random.weighted~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/random",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "polyplay.maxpat",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../Desktop",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.dist.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/code",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shot-ms-phasor.gendsp",
-				"bootpath" : "~/Downloads/EnvelopForLive-master/code",
-				"patcherrelativepath" : "../../../../Downloads/EnvelopForLive-master/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "simpleSlicer.maxpat",
-				"bootpath" : "~/Desktop/networkLucas",
-				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas",
+				"patcherrelativepath" : "./networksimpleSlicerLucas",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "slicerLucasOutput.maxpat",
-				"bootpath" : "~/Desktop/networkLucas",
-				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"name" : "simpleSlicerLucasOutput.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas",
+				"patcherrelativepath" : "./networksimpleSlicerLucas",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.around.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1212,14 +1070,14 @@
 			}
 , 			{
 				"name" : "spat5.dsp.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.dsp.mute.bypass.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1238,7 +1096,7 @@
 			}
 , 			{
 				"name" : "spat5.mc.live.gain64~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1249,7 +1107,7 @@
 			}
 , 			{
 				"name" : "spat5.monitor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1288,7 +1146,7 @@
 			}
 , 			{
 				"name" : "spat5.thru64~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1310,7 +1168,7 @@
 , 			{
 				"name" : "transposer.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
+				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/effects/transposer-folder/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1325,7 +1183,7 @@
 , 			{
 				"name" : "zero.menu.format.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
-				"patcherrelativepath" : "../../Packages/zero/patchers",
+				"patcherrelativepath" : "../../../../hajdu/Documents/Max 8/Packages/zero/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
