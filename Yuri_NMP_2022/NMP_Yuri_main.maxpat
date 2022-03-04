@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 570.333328000000051, 372.0, 50.0, 22.0 ],
+					"patching_rect" : [ 880.000000000000114, 442.0, 50.0, 22.0 ],
 					"text" : "/xyz -0."
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 606.833328000000051, 317.0, 86.0, 22.0 ],
+					"patching_rect" : [ 904.500000000000114, 386.0, 86.0, 22.0 ],
 					"text" : "sprintf /xyz %s"
 				}
 
@@ -104,7 +104,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 771.0, 32.0, 22.0 ],
+					"patching_rect" : [ 20.0, 798.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 51.5, 47.0, 20.0 ],
+					"patching_rect" : [ 341.0, 24.5, 47.0, 20.0 ],
 					"text" : "volume"
 				}
 
@@ -137,7 +137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 798.0, 54.0, 22.0 ],
+					"patching_rect" : [ 222.0, 824.0, 54.0, 22.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.5, 815.0, 113.0, 20.0 ],
+					"patching_rect" : [ 97.0, 820.0, 113.0, 20.0 ],
 					"text" : "press esc to onn/off"
 				}
 
@@ -164,7 +164,7 @@
 					"oncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 249.0, 748.0, 30.0, 30.0 ]
+					"patching_rect" : [ 65.0, 810.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -176,7 +176,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 364.0, 77.0, 19.0, 117.0 ],
+					"patching_rect" : [ 586.0, 226.0, 19.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 306.0, 40.0, 35.0, 203.0 ]
 				}
@@ -190,7 +190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.0, 50.0, 130.0, 117.0 ],
+					"patching_rect" : [ 226.0, 50.0, 175.0, 159.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 40.0, 239.0, 203.0 ],
 					"rightvalue" : 255,
@@ -243,11 +243,11 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mySoundController.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numinlets" : 4,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "int", "", "" ],
-					"patching_rect" : [ 15.0, 208.0, 487.0, 530.0 ],
+					"outlettype" : [ "multichannelsignal", "" ],
+					"patching_rect" : [ 70.0, 238.0, 487.0, 530.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -294,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 423.5, 211.0, 50.0, 22.0 ],
+					"patching_rect" : [ 423.5, 177.5, 50.0, 22.0 ],
 					"text" : "route -1"
 				}
 
@@ -362,7 +362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 423.5, 173.0, 60.0, 22.0 ],
+					"patching_rect" : [ 423.5, 139.5, 60.0, 22.0 ],
 					"text" : "route Yuri"
 				}
 
@@ -429,14 +429,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 1 ],
+					"destination" : [ "obj-36", 2 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-36", 1 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -515,7 +515,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 2 ],
+					"destination" : [ "obj-36", 3 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -523,6 +523,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 433.0, 225.0, 79.5, 225.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -530,14 +531,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-36", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-36", 2 ]
+					"order" : 1,
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -552,7 +547,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -596,7 +591,17 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "vb.fourses~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ],
