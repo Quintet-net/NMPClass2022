@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 204.0, 219.0, 865.0, 541.0 ],
+		"rect" : [ 303.0, 126.0, 865.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,8 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.5, 243.0, 102.0, 46.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 222.5, 243.0, 105.0, 46.0 ],
 					"text" : "Set thresh 2 slice files"
 				}
 
@@ -62,8 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.350000381469727, 243.0, 70.0, 46.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 65.350000381469727, 243.0, 76.0, 46.0 ],
 					"text" : "Load folder here"
 				}
 
@@ -124,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.5, 189.0, 36.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.2"
 				}
 
@@ -148,7 +145,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 642.200000166893005, 189.0, 37.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1000"
 				}
 
@@ -172,7 +168,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 586.0, 189.0, 36.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.8"
 				}
 
@@ -427,7 +422,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 50.0, 663.666680097579956, 105.0, 22.0 ],
 					"text" : "slicerLucasOutput",
 					"varname" : "slicerLucasOutput"
@@ -460,9 +455,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "simpleSlicer.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 9,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 61.0, 305.0, 425.0, 243.0 ],
 					"varname" : "simpleSlicer",
 					"viewvisibility" : 1
@@ -471,6 +467,20 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 4 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 5 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
 					"source" : [ "obj-12", 1 ]
@@ -486,10 +496,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 6 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 528.0, 210.0, 528.0, 210.0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 7 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -512,10 +536,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 8 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 651.700000166893005, 243.0, 712.5, 243.0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -615,6 +653,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 2 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -629,9 +674,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 3 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-12" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
+			"obj-8::obj-210" : [ "amxd~[2]", "amxd~", 0 ],
+			"obj-8::obj-42" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-8::obj-69::obj-409" : [ "amxd~[1]", "amxd~[7]", 0 ],
+			"obj-8::obj-69::obj-412" : [ "toggle[4]", "toggle[9]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -640,8 +696,127 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Max Compressor.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max Compressor",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max Compressor.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max Compressor.amxd_20220218.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bve.grainlooper.amxd",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bve.grainlooper.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.audiofilesin.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "../../../Packages/Fluid Corpus Manipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufflatten~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufnoveltyslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.concataudiofiles.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "../../../Packages/Fluid Corpus Manipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.libmanipulation.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "../../../Packages/Fluid Corpus Manipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.waveform~.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "../../../Packages/Fluid Corpus Manipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "leapmotion.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "polyplay.maxpat",
+				"bootpath" : "~/Desktop",
+				"patcherrelativepath" : "../../../../../Desktop",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "simpleSlicer.maxpat",
+				"bootpath" : "~/Desktop/networkLucas",
+				"patcherrelativepath" : "../../../../../Desktop/networkLucas",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "slicerLucasOutput.maxpat",
+				"bootpath" : "~/Desktop/networkLucas",
+				"patcherrelativepath" : "../../../../../Desktop/networkLucas",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
