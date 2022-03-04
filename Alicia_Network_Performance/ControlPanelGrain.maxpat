@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 697.0, 277.0, 1587.0, 804.0 ],
+		"rect" : [ 136.0, 87.0, 1444.0, 646.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,75 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
+					"id" : "obj-19",
 					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.0, 145.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.0, 200.0, 109.0, 22.0 ],
+					"text" : "pattrforward speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 101.0, 108.0, 85.0, 22.0 ],
+					"text" : "o.route /speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 101.0, 75.0, 85.0, 22.0 ],
+					"text" : "o.route /grains"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 3,
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.382143691413887, 27.0, 149.0, 22.0 ],
-					"text" : "sprintf /Alicia/grains%s %s"
+					"patching_rect" : [ 23.0, 61.5, 50.0, 49.0 ],
+					"text" : "/grains/speed 111.81"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-7",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.0, 9.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 559.0, 321.482142999999951, 22.0 ],
-					"text" : "/Alicia/grains/period/variation -88.94"
+					"text" : "/Alicia/grains/speed 8.66"
 				}
 
 			}
@@ -1059,7 +1121,7 @@
 
 					}
 ,
-					"varname" : "live.dial[4]"
+					"varname" : "speed"
 				}
 
 			}
@@ -1217,7 +1279,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 343.0, 128.0, 128.0 ],
+					"patching_rect" : [ 31.0, 335.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 254.482142999999951, 1.5, 381.719788372516632, 305.0 ],
 					"proportion" : 0.5,
@@ -1235,7 +1297,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 328.0, 128.0, 128.0 ],
+					"patching_rect" : [ 31.0, 467.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.504392505155465, 1.5, 240.459893494844437, 211.5 ],
 					"proportion" : 0.5,
@@ -1261,6 +1323,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"midpoints" : [ 674.982142999999951, 171.0, 265.982142999999951, 171.0 ],
 					"source" : [ "obj-16", 0 ]
@@ -1272,6 +1348,13 @@
 					"destination" : [ "obj-40", 0 ],
 					"midpoints" : [ 437.982142999999951, 171.0, 265.982142999999951, 171.0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1474,6 +1557,22 @@
 					"destination" : [ "obj-52", 0 ],
 					"midpoints" : [ 1254.982142999999951, 446.0, 437.982142999999951, 446.0 ],
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
