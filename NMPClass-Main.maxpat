@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 174.0, 163.0, 1298.0, 617.0 ],
+		"rect" : [ 25.0, 79.0, 1081.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,94 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 0.345098039215686, 0.952941176470588, 1.0 ],
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 1139.0, 708.333319902420044, 90.0, 22.0 ],
+					"text" : "o.route /Xerxes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-51",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1113.0, 708.333319902420044, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"checkedcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-52",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1070.0, 708.333319902420044, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.964705882352941, 0.294117647058824, 1.0, 1.0 ],
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1070.0, 749.0, 105.0, 22.0 ],
+					"text" : "slicerLucasOutput",
+					"varname" : "slicerLucasOutput"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/Xerxes" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-54",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "simpleSlicer.maxpat",
+					"numinlets" : 9,
+					"numoutlets" : 3,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1302.0, 655.0, 780.333333333333485, 265.0 ],
+					"varname" : "simpleSlicer",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 741.0, 441.0, 50.0, 49.0 ],
-					"text" : "/Tam/duration 5000."
+					"patching_rect" : [ 741.0, 441.0, 50.0, 116.0 ],
+					"text" : "/Tam/bufferWeights 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -60,13 +140,14 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "chicken_improviser.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1112.0, 706.0, 137.0, 112.0 ],
+					"patching_rect" : [ 1081.0, 786.0, 137.0, 112.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -76,10 +157,10 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 838.0, 665.0, 169.0, 22.0 ],
-					"text" : "o.route /Alicia /Tam /Netti /Yuri"
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 838.0, 665.0, 213.0, 22.0 ],
+					"text" : "o.route /Alicia /Tam /Netti /Yuri /Xerxes"
 				}
 
 			}
@@ -355,6 +436,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-9",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mySoundController.maxpat",
 					"numinlets" : 3,
@@ -376,6 +458,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "CI2Controls.maxpat",
 					"numinlets" : 0,
@@ -398,6 +481,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Tam_control.maxpat",
 					"numinlets" : 0,
@@ -433,6 +517,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "ControlPanelGrain.maxpat",
 					"numinlets" : 1,
@@ -657,6 +742,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-49", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
@@ -668,6 +760,54 @@
 					"destination" : [ "obj-6", 1 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-53", 3 ],
+					"order" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-53", 2 ],
+					"order" : 1,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-53", 1 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -713,6 +853,10 @@
 			"obj-45::obj-33::obj-19" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-45::obj-33::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-45::obj-33::obj-7" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-53::obj-210" : [ "amxd~[2]", "amxd~", 0 ],
+			"obj-53::obj-42" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-53::obj-69::obj-409" : [ "amxd~[1]", "amxd~[7]", 0 ],
+			"obj-53::obj-69::obj-412" : [ "toggle[4]", "toggle[9]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -744,6 +888,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "2-Step Flux Beat 01.caf",
+				"bootpath" : "~/Desktop/jam",
+				"patcherrelativepath" : "../../../../Desktop/jam",
+				"type" : "CAF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CI2Controls.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
+				"patcherrelativepath" : "./netti",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ControlPanelGrain.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
 				"patcherrelativepath" : "./Alicia_Network_Performance",
@@ -751,8 +909,36 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"name" : "Max Compressor.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max Compressor",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max Compressor.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max Compressor.amxd_20220218.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OutputGrain_Network.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
+				"patcherrelativepath" : "./Alicia_Network_Performance",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tam_Original.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
+				"patcherrelativepath" : "./Tam",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -764,18 +950,135 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "CI2Controls.maxpat",
+				"name" : "TheWholeGodammThing.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
 				"patcherrelativepath" : "./netti",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Diagonal.txt",
-				"bootpath" : "~/Documents/Max 8/Packages/Quintet.net/patchers/Library/Data/Keyboard Layout",
-				"patcherrelativepath" : "../../Packages/Quintet.net/patchers/Library/Data/Keyboard Layout",
+				"name" : "bve.grainlooper.amxd",
+				"bootpath" : "~/Desktop/networkLucas",
+				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bve.grainlooper.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chicken_improviser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
+				"patcherrelativepath" : "./netti",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat.loadbang.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/internal",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/internal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat.o.gui.dropfile.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/gui",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/gui",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat.phase.divider~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/signal",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/signal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat.phase~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/signal",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/signal",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.audiofilesin.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufflatten~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufnoveltyslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.concataudiofiles.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/patchers",
+				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.libmanipulation.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.waveform~.js",
+				"bootpath" : "~/Documents/Max 8/Packages/Fluid Corpus Manipulation/jsui",
+				"patcherrelativepath" : "../../Packages/Fluid Corpus Manipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "granubuf.pan.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/code",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "leapmotion.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mxj.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mySoundController.maxpat",
@@ -785,32 +1088,127 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OutputGrain_Network.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Alicia_Network_Performance",
-				"patcherrelativepath" : "./Alicia_Network_Performance",
+				"name" : "o.change.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.compose.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.cond.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.doc.handler.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/internal",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/internal",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.monitor.maxpat",
+				"name" : "o.expr.codebox.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.granubuf~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/sound-engines/samples",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/sound-engines/samples",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.if.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.random.weighted~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/patchers/random",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/patchers/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "polyplay.maxpat",
+				"bootpath" : "~/Desktop",
+				"patcherrelativepath" : "../../../../Desktop",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.dist.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy-master/code",
+				"patcherrelativepath" : "../../Packages/hfmt-pedagogy-master/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shot-ms-phasor.gendsp",
+				"bootpath" : "~/Downloads/EnvelopForLive-master/code",
+				"patcherrelativepath" : "../../../../Downloads/EnvelopForLive-master/code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "simpleSlicer.maxpat",
+				"bootpath" : "~/Desktop/networkLucas",
+				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "slicerLucasOutput.maxpat",
+				"bootpath" : "~/Desktop/networkLucas",
+				"patcherrelativepath" : "../../../../Desktop/networkLucas",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.around.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.mc.live.gain64~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../Packages/spat5/patchers",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "spat5.cpu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.thru64~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../Packages/spat5/patchers",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "spat5.diagmatrix~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.dsp.control.maxpat",
@@ -827,107 +1225,85 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Tam_Original.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/Tam",
-				"patcherrelativepath" : "./Tam",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "spat5.granulator~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zero.menu.format.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
-				"patcherrelativepath" : "../../Packages/zero/patchers",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "spat5.grids.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.random.weighted~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/random",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/random",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "spat5.hostinfos.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "random.dist.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.loadbang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.doc.handler.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/internal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/internal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.o.gui.dropfile.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/gui",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/gui",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.granubuf~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/sound-engines/samples",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/sound-engines/samples",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "granubuf.pan.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shot-ms-phasor.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/code",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat.phase.divider~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/hfmt-pedagogy/patchers/signal",
-				"patcherrelativepath" : "../../Packages/hfmt-pedagogy/patchers/signal",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spat5.around.maxpat",
+				"name" : "spat5.mc.live.gain64~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
 				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chicken_improviser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
-				"patcherrelativepath" : "./netti",
+				"name" : "spat5.meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.monitor.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "TheWholeGodammThing.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/netti",
-				"patcherrelativepath" : "./netti",
+				"name" : "spat5.oper.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.interpolate.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.replace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.pan~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.spat~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.thru64~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../Packages/spat5/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.transform.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.viewer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -939,66 +1315,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.cpu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.hostinfos.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.granulator~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.diagmatrix~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.pan~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.viewer.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.interpolate.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.grids.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.replace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.transform.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.meter~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.osc.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "zero.announce.mxo",
 				"type" : "iLaX"
 			}
@@ -1007,67 +1323,76 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "zero.menu.format.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/zero/patchers",
+				"patcherrelativepath" : "../../Packages/zero/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "zero.resolve.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "o.union.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.cond.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.codebox.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.prepend.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.select.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.if.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.compose.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.display.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.change.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.spat~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "spat5.oper.mxo",
-				"type" : "iLaX"
-			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "max6box",
+				"default" : 				{
+					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "max6inlet",
+				"default" : 				{
+					"color" : [ 0.423529, 0.372549, 0.27451, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "max6message",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
+						"color2" : [ 0.788235, 0.788235, 0.788235, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "max6box",
+				"multi" : 0
+			}
+, 			{
+				"name" : "max6outlet",
+				"default" : 				{
+					"color" : [ 0.0, 0.454902, 0.498039, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "tap",
+				"default" : 				{
+					"fontname" : [ "Lato Light" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
