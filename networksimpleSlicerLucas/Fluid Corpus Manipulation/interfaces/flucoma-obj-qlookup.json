@@ -1,0 +1,386 @@
+{
+    "fluid.ampgate~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Amplitude-based Gating Slicer"
+    },
+    "fluid.ampslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Amplitude-based Detrending Slicer"
+    },
+    "fluid.audiotransport~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Interpolate between sounds"
+    },
+    "fluid.bufampgate~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Amplitude-based Gating Slicer for Buffers"
+    },
+    "fluid.bufampslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Amplitude-based Detrending Slicer for Buffers"
+    },
+    "fluid.bufaudiotransport~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Interpolate between buffers"
+    },
+    "fluid.bufchroma~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "An histogram of pitch classes on a Buffer"
+    },
+    "fluid.bufcompose~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer Compositing Utility"
+    },
+    "fluid.bufflatten~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Flatten a multichannel buffer"
+    },
+    "fluid.bufhpss~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Harmonic-Percussive Source Separation Using Median Filtering"
+    },
+    "fluid.bufloudness~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Loudness and True-Peak Descriptor on a Buffer"
+    },
+    "fluid.bufmelbands~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Perceptually Spread Spectral Contour Descriptor on a Buffer"
+    },
+    "fluid.bufmfcc~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Mel-Frequency Cepstral Coefficients as Spectral Descriptors on a Buffer"
+    },
+    "fluid.bufnmfcross~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Resynthesise a target sound based on a source sound"
+    },
+    "fluid.bufnmf~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Non-Negative Matrix Factorisation on Spectral Frames"
+    },
+    "fluid.bufnndsvd~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Non-Negative Double Singular Value Decomposition on a Buffer"
+    },
+    "fluid.bufnoveltyslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Novelty-Based Slicer"
+    },
+    "fluid.bufonsetslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Spectral Difference-Based Audio Buffer Slicer"
+    },
+    "fluid.bufpitch~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Selection of Pitch Descriptors on a Buffer"
+    },
+    "fluid.bufscale~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Scaling Processor for Buffers"
+    },
+    "fluid.bufselectevery~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Extract every N samples / channels from a buffer"
+    },
+    "fluid.bufselect~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Cherry pick values from a buffer"
+    },
+    "fluid.bufsines~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Sinusoidal Modelling and Resynthesis"
+    },
+    "fluid.bufspectralshape~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Seven Spectral Shape Descriptors on a Buffer"
+    },
+    "fluid.bufstats~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Computing Statistics on Buffers as Series."
+    },
+    "fluid.bufstft~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Perform a Short-Time Fourier Transform on one channel of a buffer"
+    },
+    "fluid.bufthreaddemo~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Tutorial Object to Experiment with Multithreading in FluidBuf* Objects"
+    },
+    "fluid.bufthresh~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Gate Processor for Buffers"
+    },
+    "fluid.buftransientslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Transient-Based Slicer"
+    },
+    "fluid.buftransients~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Buffer-Based Transient Extractor"
+    },
+    "fluid.chroma~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "An histogram of pitch classes in Real-Time"
+    },
+    "fluid.datasetquery~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Query a FluidDataSet"
+    },
+    "fluid.dataset~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A set of data associated with identifiers."
+    },
+    "fluid.gain~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time Buffered Gain Changer"
+    },
+    "fluid.grid~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Constrain a 2D DataSet into a Grid."
+    },
+    "fluid.hpss~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Harmonic-Percussive Source Separation Using Median Filtering"
+    },
+    "fluid.kdtree~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "KD Tree"
+    },
+    "fluid.kmeans~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Cluster data points with K-Means"
+    },
+    "fluid.knnclassifier~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Classify data with K Nearest Neighbours"
+    },
+    "fluid.knnregressor~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Regression with K Nearest Neighbours"
+    },
+    "fluid.labelset~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A set of labels associated with identifiers."
+    },
+    "fluid.loudness~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Loudness and True-Peak Descriptor in Real-Time"
+    },
+    "fluid.mds~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Dimensionality Reduction with Multidimensional Scaling"
+    },
+    "fluid.melbands~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Perceptually Spread Spectral Contour Descriptor in Real-Time"
+    },
+    "fluid.mfcc~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Mel-Frequency Cepstral Coefficients as Spectral Descriptors in Real-Time"
+    },
+    "fluid.mlpclassifier~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Classification with a multi-layer perceptron"
+    },
+    "fluid.mlpregressor~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Regression with a multi-layer perceptron"
+    },
+    "fluid.nmffilter~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time Non-Negative Matrix Factorisation with Fixed Bases"
+    },
+    "fluid.nmfmatch~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time Non-Negative Matrix Factorisation with Fixed Bases"
+    },
+    "fluid.nmfmorph~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Morph between sounds"
+    },
+    "fluid.normalize~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Normalize a FluidDataSet"
+    },
+    "fluid.noveltyslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time Novelty-Based Slicer"
+    },
+    "fluid.onsetslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Spectral Difference-Based Real-Time Audio Slicer"
+    },
+    "fluid.pca~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Dimensionality Reduction with Principal Component Analysis"
+    },
+    "fluid.pitch~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "A Selection of Pitch Descriptors in Real-Time"
+    },
+    "fluid.robustscale~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Apply Robust Scaling to a FluidDataSet"
+    },
+    "fluid.sines~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Sinusoidal Modelling and Resynthesis"
+    },
+    "fluid.spectralshape~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Seven Spectral Shape Descriptors in Real-Time"
+    },
+    "fluid.standardize~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Standardize a FluidDataSet"
+    },
+    "fluid.stats~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Rolling mean and standard deviation on list inputs"
+    },
+    "fluid.stftpass~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time FFT/IFFT return trip."
+    },
+    "fluid.transientslice~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Transient-Based Real-Time Audio Slicer"
+    },
+    "fluid.transients~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Real-Time Transient Modeller and Extractor"
+    },
+    "fluid.umap~": {
+        "category": [
+            "Fluid Corpus Manuipulation"
+        ],
+        "digest": "Dimensionality Reduction with Uniform Manifold Approximation and Projection"
+    }
+}

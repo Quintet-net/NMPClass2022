@@ -1,0 +1,58 @@
+{
+    "maxdb": {
+        "externals": {
+            "fluid.dataset~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.kdtree~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.kmeans~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.knnclassifier~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.knnregressor~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.labelset~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.mlpclassifier~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.mlpregressor~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.normalize~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.pca~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.robustscale~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.standardize~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            },
+            "fluid.umap~": {
+                "object": "fluid.libmanipulation",
+                "package": "Fluid Corpus Manipulation"
+            }
+        }
+    }
+}
