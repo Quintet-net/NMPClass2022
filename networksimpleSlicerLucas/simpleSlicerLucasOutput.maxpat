@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 417.0, 105.0, 753.0, 641.0 ],
+		"rect" : [ 469.0, 593.0, 1086.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 331.25, 1629.0, 60.0, 22.0 ],
+					"text" : "mc.pack~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 533.999987864089917, 78.631564259529114, 29.5, 22.0 ],
+					"text" : "t l b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -73,20 +97,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 652.0, 96.666667699813843, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "target",
-					"id" : "obj-7",
-					"index" : 4,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 721.0, 566.0, 30.0, 30.0 ]
+					"patching_rect" : [ 531.999987864089917, 29.666667699813843, 30.0, 30.0 ]
 				}
 
 			}
@@ -273,7 +284,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 324.0, 1512.964922547340393, 48.0, 136.0 ],
+					"patching_rect" : [ 331.0, 1467.333334565162659, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -619,7 +630,7 @@
 										"filename" : "Max Compressor.amxd.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "d5206037608aa17d4e5f55e087c07321"
+										"snapshotfileid" : "3bf4cc477c704c364205c827aa714582"
 									}
 
 								}
@@ -634,10 +645,10 @@
 									"embed" : 0,
 									"fileref" : 									{
 										"name" : "Max Compressor.amxd",
-										"filename" : "Max Compressor.amxd_20220218.maxsnap",
+										"filename" : "Max Compressor.amxd.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "6180a0b4f17d5006563bd630817be592"
+										"snapshotfileid" : "3bf4cc477c704c364205c827aa714582"
 									}
 
 								}
@@ -663,8 +674,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -769,8 +780,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -914,8 +925,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1149,7 +1160,7 @@
 										"active" : 0,
 										"parameter_enable" : 1,
 										"patchername" : "bve.grainlooper.amxd",
-										"patchername_fallback" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd"
+										"patchername_fallback" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd"
 									}
 ,
 									"snapshot" : 									{
@@ -1163,7 +1174,7 @@
 										"embed" : 1,
 										"snapshot" : 										{
 											"name" : "bve.grainlooper.amxd",
-											"origname" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
+											"origname" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 											"valuedictionary" : 											{
 												"parameter_values" : 												{
 													"fade" : 0.0,
@@ -1193,7 +1204,7 @@
 													"embed" : 0,
 													"snapshot" : 													{
 														"name" : "bve.grainlooper.amxd",
-														"origname" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
+														"origname" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 														"valuedictionary" : 														{
 															"parameter_values" : 															{
 																"fade" : 0.0,
@@ -1215,7 +1226,25 @@
 														"filename" : "bve.grainlooper.amxd.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "31495456524828a937eb3d4d765caf02"
+														"snapshotfileid" : "4d4aff4ab1e92a77f81056976853ae44"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "bve.grainlooper.amxd",
+													"origin" : "bve.grainlooper.amxd",
+													"type" : "amxd",
+													"subtype" : "Undefined",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "bve.grainlooper.amxd",
+														"filename" : "bve.grainlooper.amxd.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "4d4aff4ab1e92a77f81056976853ae44"
 													}
 
 												}
@@ -1455,7 +1484,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1638,14 +1667,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-42", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -1755,8 +1784,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
