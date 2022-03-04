@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 417.0, 105.0, 753.0, 641.0 ],
+		"rect" : [ 417.0, 105.0, 941.0, 740.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 616.5, 63.0, 29.5, 22.0 ],
+					"text" : "t l b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-11",
@@ -61,20 +73,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 652.0, 96.666667699813843, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "target",
-					"id" : "obj-7",
-					"index" : 4,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 721.0, 566.0, 30.0, 30.0 ]
+					"patching_rect" : [ 616.5, 18.666667699813843, 30.0, 30.0 ]
 				}
 
 			}
@@ -113,18 +112,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 331.25, 1675.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-258",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 717.25, 654.982908070087433, 50.0, 22.0 ]
 				}
 
 			}
@@ -182,7 +169,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 179.753623127937317, 538.159420132637024, 85.0, 22.0 ],
+					"patching_rect" : [ 627.0, 425.159420132637024, 85.0, 22.0 ],
 					"text" : "counter 0 1 40"
 				}
 
@@ -196,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.753623127937317, 611.0, 60.0, 23.0 ],
+					"patching_rect" : [ 627.0, 498.0, 60.0, 23.0 ],
 					"text" : "target $1"
 				}
 
@@ -211,7 +198,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 179.753623127937317, 583.0, 62.0, 23.0 ],
+					"patching_rect" : [ 627.0, 470.0, 62.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -220,9 +207,8 @@
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 335.145861864089966, 644.0, 102.0, 22.0 ],
 					"text" : "poly~ polyplay 40"
 				}
@@ -357,7 +343,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 384.631564259529114, 68.0, 22.0 ],
+					"patching_rect" : [ 283.499987864089917, 380.631564259529114, 68.0, 22.0 ],
 					"text" : "pak 0. 100."
 				}
 
@@ -369,7 +355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 421.631564259529114, 79.0, 22.0 ],
+					"patching_rect" : [ 283.499987864089917, 419.631564259529114, 79.0, 22.0 ],
 					"text" : "prepend start"
 				}
 
@@ -568,7 +554,7 @@
 									"origin" : "Max Compressor.amxd",
 									"type" : "amxd",
 									"subtype" : "Undefined",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"name" : "Max Compressor.amxd",
 										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max Compressor/Max Compressor.amxd",
@@ -607,25 +593,7 @@
 										"filename" : "Max Compressor.amxd.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "d5206037608aa17d4e5f55e087c07321"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Max Compressor.amxd",
-									"origin" : "Max Compressor.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Max Compressor.amxd",
-										"filename" : "Max Compressor.amxd_20220218.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "6180a0b4f17d5006563bd630817be592"
+										"snapshotfileid" : "3bf4cc477c704c364205c827aa714582"
 									}
 
 								}
@@ -651,8 +619,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -757,8 +725,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -902,8 +870,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1123,7 +1091,6 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
 									"patching_rect" : [ 50.0, 157.965812087059021, 311.0, 196.0 ],
-									"presentation_linecount" : 2,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -1138,7 +1105,7 @@
 										"active" : 0,
 										"parameter_enable" : 1,
 										"patchername" : "bve.grainlooper.amxd",
-										"patchername_fallback" : "~/Desktop/bve.grainlooper.amxd"
+										"patchername_fallback" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd"
 									}
 ,
 									"snapshot" : 									{
@@ -1152,16 +1119,16 @@
 										"embed" : 1,
 										"snapshot" : 										{
 											"name" : "bve.grainlooper.amxd",
-											"origname" : "~/Desktop/bve.grainlooper.amxd",
+											"origname" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 											"valuedictionary" : 											{
 												"parameter_values" : 												{
-													"fade" : 0.0,
+													"fade" : 1000.0,
 													"live.gain~[9]" : 0.0,
-													"range max" : 1070.866141732283495,
-													"range min" : 740.157480314960594,
-													"refresh" : 1.0,
+													"range max" : 2000.0,
+													"range min" : 0.0,
+													"refresh" : 0.0,
 													"state" : 0.0,
-													"thru" : 0.0,
+													"thru" : 1.0,
 													"volume" : 0.0
 												}
 
@@ -1179,19 +1146,19 @@
 													"origin" : "bve.grainlooper.amxd",
 													"type" : "amxd",
 													"subtype" : "Undefined",
-													"embed" : 0,
+													"embed" : 1,
 													"snapshot" : 													{
 														"name" : "bve.grainlooper.amxd",
-														"origname" : "~/Desktop/bve.grainlooper.amxd",
+														"origname" : "/Users/Shared/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 														"valuedictionary" : 														{
 															"parameter_values" : 															{
-																"fade" : 0.0,
+																"fade" : 1000.0,
 																"live.gain~[9]" : 0.0,
-																"range max" : 1070.866141732283495,
-																"range min" : 740.157480314960594,
-																"refresh" : 1.0,
+																"range max" : 2000.0,
+																"range min" : 0.0,
+																"refresh" : 0.0,
 																"state" : 0.0,
-																"thru" : 0.0,
+																"thru" : 1.0,
 																"volume" : 0.0
 															}
 
@@ -1204,7 +1171,7 @@
 														"filename" : "bve.grainlooper.amxd.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "31495456524828a937eb3d4d765caf02"
+														"snapshotfileid" : "4d4aff4ab1e92a77f81056976853ae44"
 													}
 
 												}
@@ -1239,7 +1206,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -1444,7 +1411,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1528,6 +1495,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 1 ],
 					"source" : [ "obj-210", 1 ]
 				}
@@ -1537,13 +1518,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-210", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 1 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1565,32 +1539,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"order" : 0,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-210", 0 ],
-					"order" : 1,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"order" : 2,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 189.253623127937317, 640.0, 344.645861864089966, 640.0 ],
+					"midpoints" : [ 636.5, 640.0, 344.645861864089966, 640.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1732,13 +1682,6 @@
 					"midpoints" : [ 243.5, 926.0, 317.0, 926.0, 317.0, 971.0, 608.5, 971.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
