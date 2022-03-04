@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 136.0, 87.0, 1444.0, 646.0 ],
+		"rect" : [ 942.0, 296.0, 1444.0, 646.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 186.0, 37.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"button" : [ 0.0 ],
+						"live.dial" : [ -32.598425196850371 ],
+						"live.dial[10]" : [ 100.0 ],
+						"live.dial[11]" : [ 0.0 ],
+						"live.dial[13]" : [ 10.0 ],
+						"live.dial[14]" : [ 5.0 ],
+						"live.dial[15]" : [ 5000.0 ],
+						"live.dial[1]" : [ 0.0 ],
+						"live.dial[2]" : [ 0.0 ],
+						"live.dial[3]" : [ 10.0 ],
+						"live.dial[5]" : [ 0.0 ],
+						"live.dial[6]" : [ 0.0 ],
+						"live.dial[7]" : [ -10.0 ],
+						"live.dial[8]" : [ 15.0 ],
+						"live.dial[9]" : [ 10.0 ],
+						"live.numbox" : [ 10.0 ],
+						"live.tab" : [ 0.0 ],
+						"live.tab[1]" : [ 0.0 ],
+						"speed" : [ -61.400001525878906 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u129021465"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -89,13 +124,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 61.5, 50.0, 49.0 ],
-					"text" : "/grains/speed 111.81"
+					"patching_rect" : [ 23.0, 61.5, 50.0, 62.0 ],
+					"text" : "/grains/gain/variation -6.3"
 				}
 
 			}
@@ -132,7 +167,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 559.0, 321.482142999999951, 22.0 ],
-					"text" : "/Alicia/grains/speed 8.66"
+					"text" : "/Alicia/grains/gain/db -32.6"
 				}
 
 			}
