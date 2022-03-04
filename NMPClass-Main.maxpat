@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 128.0, 79.0, 889.0, 687.0 ],
+		"rect" : [ 162.0, 87.0, 889.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1302.0, 655.0, 780.333333333333485, 265.0 ],
+					"patching_rect" : [ 1323.0, 670.0, 780.333333333333485, 265.0 ],
 					"varname" : "simpleSlicer",
 					"viewvisibility" : 1
 				}

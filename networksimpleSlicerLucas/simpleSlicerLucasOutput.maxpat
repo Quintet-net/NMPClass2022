@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 138.0, 502.0, 100.0, 22.0 ],
+					"text" : "loadbang mess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-11",
@@ -73,7 +85,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 721.0, 566.0, 30.0, 30.0 ]
 				}
 
@@ -1123,7 +1135,6 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
 									"patching_rect" : [ 50.0, 157.965812087059021, 311.0, 196.0 ],
-									"presentation_linecount" : 2,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -1138,7 +1149,7 @@
 										"active" : 0,
 										"parameter_enable" : 1,
 										"patchername" : "bve.grainlooper.amxd",
-										"patchername_fallback" : "~/Desktop/bve.grainlooper.amxd"
+										"patchername_fallback" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd"
 									}
 ,
 									"snapshot" : 									{
@@ -1152,7 +1163,7 @@
 										"embed" : 1,
 										"snapshot" : 										{
 											"name" : "bve.grainlooper.amxd",
-											"origname" : "~/Desktop/bve.grainlooper.amxd",
+											"origname" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 											"valuedictionary" : 											{
 												"parameter_values" : 												{
 													"fade" : 0.0,
@@ -1182,7 +1193,7 @@
 													"embed" : 0,
 													"snapshot" : 													{
 														"name" : "bve.grainlooper.amxd",
-														"origname" : "~/Desktop/bve.grainlooper.amxd",
+														"origname" : "~/Documents/Max 8/Library/NMPClass2022/networksimpleSlicerLucas/bve.grainlooper.amxd",
 														"valuedictionary" : 														{
 															"parameter_values" : 															{
 																"fade" : 0.0,
@@ -1523,6 +1534,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-132", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
