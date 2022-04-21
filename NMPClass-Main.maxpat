@@ -268,7 +268,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 328.0, 526.0, 372.0, 22.0 ],
-					"text" : "/Yuri/upfreq/upfreq 0.72 0.76 0.91 1."
+					"text" : "/Yuri/upfreq/upfreq 0.09 0.11 0.04 0."
 				}
 
 			}

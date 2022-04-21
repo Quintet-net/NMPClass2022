@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 178.0, 198.0, 50.0, 35.0 ],
+					"text" : "set 50 70"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -156,8 +169,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.16662499999984, 391.0, 100.0, 22.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 574.16662499999984, 391.0, 61.0, 22.0 ],
+					"text" : "pack 0. 0."
 				}
 
 			}
@@ -792,7 +805,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 434.000062000000071, 667.30285648437507, 136.0, 35.0 ],
-					"text" : "/Yuri/downfreq/downfreq 0.92 0.75 0.63 0.57"
+					"text" : "/Yuri/downfreq/downfreq 0.3 0.43 0.62 0.83"
 				}
 
 			}
@@ -805,7 +818,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 228.166624999999954, 667.30285648437507, 144.0, 35.0 ],
-					"text" : "/Yuri/upfreq/upfreq 0.72 0.76 0.91 1."
+					"text" : "/Yuri/upfreq/upfreq 0.25 0.19 0.22 0.24"
 				}
 
 			}
@@ -865,10 +878,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 111.5, 29.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"XY" : [ 116, 96 ],
+						"XY" : [ 50, 70 ],
 						"XY[1]" : [ 67, 56 ],
-						"downfreq" : [ 0.920000016689301, 0.75, 0.629999995231628, 0.569999992847443 ],
-						"upfreq" : [ 0.720000028610229, 0.759999990463257, 0.910000026226044, 1.0 ],
+						"downfreq" : [ 0.019999999552965, 0.239999994635582, 0.5, 0.660000026226044 ],
+						"upfreq" : [ 0.129999995231628, 0.159999996423721, 0.109999999403954, 0.0 ],
 						"volume" : [ 0 ]
 					}
 ,
@@ -915,7 +928,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 72.0, 50.0, 76.0 ],
-					"text" : "/upfreq/upfreq 0.72 0.76 0.91 1."
+					"text" : "/upfreq/upfreq 0.13 0.16 0.11 0."
 				}
 
 			}
@@ -1048,8 +1061,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.16662499999984, 156.0, 100.0, 22.0 ],
-					"text" : "pack"
+					"patching_rect" : [ 574.16662499999984, 156.0, 61.0, 22.0 ],
+					"text" : "pack 0. 0."
 				}
 
 			}
@@ -1062,7 +1075,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.666610000000105, 621.71521000000007, 59.0, 49.0 ],
-					"text" : "/Yuri/XY/XY 116 96"
+					"text" : "/Yuri/XY/XY 40. 77."
 				}
 
 			}
@@ -2304,6 +2317,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
