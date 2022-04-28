@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 359.0, 168.0, 1557.0, 877.0 ],
+		"rect" : [ 216.0, 101.0, 781.0, 529.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,49 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-96",
-					"maxclass" : "newobj",
+					"comment" : "",
+					"id" : "obj-7",
+					"index" : 0,
+					"maxclass" : "outlet",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1151.0, 9.666666865348816, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-93",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1151.0, 133.87606805562973, 96.0, 22.0 ],
-					"text" : "prepend append"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1151.0, 57.87606805562973, 112.0, 22.0 ],
-					"text" : "\"Techno Jam Pack\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1151.0, 99.87606805562973, 77.0, 22.0 ],
-					"text" : "absolutepath"
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.176476955413818, 1210.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -94,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 553.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -106,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 101.0, 561.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -191,7 +155,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -204,7 +168,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -249,7 +213,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -295,7 +259,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -447,7 +411,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -681,7 +645,7 @@
 										"active" : 0,
 										"parameter_enable" : 1,
 										"patchername" : "bve.grainlooper.amxd",
-										"patchername_fallback" : "~/Documents/Max 8/Library/NMPClass2022-main/NMPClass2022-main/networksimpleSlicerLucas/bve.grainlooper.amxd"
+										"patchername_fallback" : "~/Documents/Max 8/Library/NMPClass2022/22.04-LucasinOne/bve.grainlooper.amxd"
 									}
 ,
 									"snapshot" : 									{
@@ -695,7 +659,7 @@
 										"embed" : 1,
 										"snapshot" : 										{
 											"name" : "bve.grainlooper.amxd",
-											"origname" : "~/Documents/Max 8/Library/NMPClass2022-main/NMPClass2022-main/networksimpleSlicerLucas/bve.grainlooper.amxd",
+											"origname" : "~/Documents/Max 8/Library/NMPClass2022/22.04-LucasinOne/bve.grainlooper.amxd",
 											"valuedictionary" : 											{
 												"parameter_values" : 												{
 													"fade" : 0.0,
@@ -725,7 +689,7 @@
 													"embed" : 0,
 													"snapshot" : 													{
 														"name" : "bve.grainlooper.amxd",
-														"origname" : "~/Documents/Max 8/Library/NMPClass2022-main/NMPClass2022-main/networksimpleSlicerLucas/bve.grainlooper.amxd",
+														"origname" : "~/Documents/Max 8/Library/NMPClass2022/22.04-LucasinOne/bve.grainlooper.amxd",
 														"valuedictionary" : 														{
 															"parameter_values" : 															{
 																"fade" : 0.0,
@@ -747,7 +711,7 @@
 														"filename" : "bve.grainlooper.amxd.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "4b9ad7e3f1f972900e585102228ec701"
+														"snapshotfileid" : "31495456524828a937eb3d4d765caf02"
 													}
 
 												}
@@ -1021,7 +985,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 648.952976584434509, 496.283251076936722, 28.0, 22.0 ],
-					"text" : "91"
+					"text" : "29"
 				}
 
 			}
@@ -1084,7 +1048,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 951.0, 401.283251076936722, 107.0, 22.0 ],
-					"text" : "/volume 0"
+					"text" : "/stutter 29"
 				}
 
 			}
@@ -1117,7 +1081,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1255,13 +1219,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 573.0, 471.0, 640.0, 480.0 ],
+						"rect" : [ 295.0, 476.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1289,6 +1253,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -1398,7 +1363,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1585,8 +1550,8 @@
 													"left_freeze" : 0.0,
 													"note" : 0.0,
 													"reverse" : 0.0,
-													"stutter_time" : 716.535433070866134,
-													"stutters" : 255.0,
+													"stutter_time" : 228.346456692913392,
+													"stutters" : 74.0,
 													"sync" : 0.0,
 													"blob" : 													{
 														"lMulti" : [ 0, 346, 462, 462, 462, 577, 616, 654, 692, 769, 808, 808, 808, 846, 885, 923, 923, 923, 962, 962, 962, 962, 885, 769, 538, 385, 269, 269, 192, 154, 154, 231 ],
@@ -1626,8 +1591,8 @@
 																"left_freeze" : 0.0,
 																"note" : 0.0,
 																"reverse" : 0.0,
-																"stutter_time" : 716.535433070866134,
-																"stutters" : 255.0,
+																"stutter_time" : 228.346456692913392,
+																"stutters" : 74.0,
 																"sync" : 0.0,
 																"blob" : 																{
 																	"lMulti" : [ 0, 346, 462, 462, 462, 577, 616, 654, 692, 769, 808, 808, 808, 846, 885, 923, 923, 923, 962, 962, 962, 962, 885, 769, 538, 385, 269, 269, 192, 154, 154, 231 ],
@@ -1645,7 +1610,7 @@
 														"filename" : "Stutterer.amxd.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "742624132d356f3cad40bb3a0e39c96e"
+														"snapshotfileid" : "b32a90585b181df814b7f71316394490"
 													}
 
 												}
@@ -1660,10 +1625,10 @@
 													"embed" : 0,
 													"fileref" : 													{
 														"name" : "Stutterer.amxd",
-														"filename" : "Stutterer.amxd_20220206.maxsnap",
+														"filename" : "Stutterer.amxd_20220218.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "08c375fa05503f134aee1e0dc2eeb755"
+														"snapshotfileid" : "cf11233e27fa3f3cc0a63705b96d1bc0"
 													}
 
 												}
@@ -1678,10 +1643,10 @@
 													"embed" : 0,
 													"fileref" : 													{
 														"name" : "Stutterer.amxd",
-														"filename" : "Stutterer.amxd_20220206_1.maxsnap",
+														"filename" : "Stutterer.amxd_20220218_1.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "e98b3d367279419b38368a827c552f22"
+														"snapshotfileid" : "6297bca56f3efffd8cf5a8a215c2359f"
 													}
 
 												}
@@ -1696,10 +1661,10 @@
 													"embed" : 0,
 													"fileref" : 													{
 														"name" : "Stutterer.amxd",
-														"filename" : "Stutterer.amxd_20220206_2.maxsnap",
+														"filename" : "Stutterer.amxd_20220218_2.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "0ffd3057044fb55bc338711de5a15e7e"
+														"snapshotfileid" : "faf5e6640dfb14058010be0c7b669b08"
 													}
 
 												}
@@ -1995,13 +1960,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 618.0, 529.0, 640.0, 480.0 ],
+						"rect" : [ 581.0, 95.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2048,8 +2013,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 609.0, 79.0, 22.0 ],
-									"text" : "readfolder $1 \"Macintosh HD:/Users/aliciasanchezreyes/Documents/Max 8/Library/NMPClass2022-main/NMPClass2022-main/networksimpleSlicerLucas/Techno Jam Pack\""
+									"patching_rect" : [ 50.0, 609.0, 135.0, 196.0 ],
+									"text" : "readfolder $1 \"Macintosh HD:/Users/aliciasanchezreyes/Documents/Max 8/Library/NMPClass2022-main/NMPClass2022-main/networksimpleSlicerLucas/Techno Jam Pack\" \"macOS:/Users/user/Documents/Max 8/Library/NMPClass2022-main/22.04-LucasinOne/Techno Jam Pack\""
 								}
 
 							}
@@ -2140,144 +2105,56 @@
 , 							{
 								"box" : 								{
 									"embed_buffers" : 									{
-										"load.1" : "Techno 8 Bit Beat 01.caf",
-										"load.2" : "Techno 8 Bit Beat 02.caf",
-										"load.3" : "Techno 8 Bit Beat 03.caf",
-										"load.4" : "Techno 8 Bit Beat 04.caf",
-										"load.5" : "Techno Alert Bass.caf",
-										"load.6" : "Techno Alert Synth 01.caf",
-										"load.7" : "Techno Alert Synth 02.caf",
-										"load.8" : "Techno Alert Synth 03.caf",
-										"load.9" : "Techno Anticipate Beat 01.caf",
-										"load.10" : "Techno Anticipate Beat 02.caf",
-										"load.11" : "Techno Aquatic Beat.caf",
-										"load.12" : "Techno Automata Beat 01.caf",
-										"load.13" : "Techno Bang Bang Beat 01.caf",
-										"load.14" : "Techno Bang Bang Beat 02.caf",
-										"load.15" : "Techno Bang Bang Beat 03.caf",
-										"load.16" : "Techno Bang Bang Beat 04.caf",
-										"load.17" : "Techno Battle Bot Beat 01.caf",
-										"load.18" : "Techno Battle Bot Beat 02.caf",
-										"load.19" : "Techno Battle Bot Beat 03.caf",
-										"load.20" : "Techno Battle Bot Beat 04.caf",
-										"load.21" : "Techno Battle Bot Beat 05.caf",
-										"load.22" : "Techno Battle Bot Beat 06.caf",
-										"load.23" : "Techno Big Shot Beat 01.caf",
-										"load.24" : "Techno Big Shot Beat 02.caf",
-										"load.25" : "Techno Binary Beat 01.caf",
-										"load.26" : "Techno Binary Beat 02.caf",
-										"load.27" : "Techno Binary Beat 03.caf",
-										"load.28" : "Techno Binary Beat 04.caf",
-										"load.29" : "Techno Binary Beat 05.caf",
-										"load.30" : "Techno Bleep Beat 01.caf",
-										"load.31" : "Techno Bleep Beat 02.caf",
-										"load.32" : "Techno Bleep Beat 03.caf",
-										"load.33" : "Techno Bleep Beat 04.caf",
-										"load.34" : "Techno Bleep Beat 05.caf",
-										"load.35" : "Techno Bleep Beat 06.caf",
-										"load.36" : "Techno Breeze Beat 01.caf",
-										"load.37" : "Techno Bubble Beat 01.caf",
-										"load.38" : "Techno Bubble Beat 02.caf",
-										"load.39" : "Techno Bubble Beat 03.caf",
-										"load.40" : "Techno Bubble Beat 04.caf",
-										"load.41" : "Techno Conga Beat 01.caf",
-										"load.42" : "Techno Conga Beat 02.caf",
-										"load.43" : "Techno Conga Beat 03.caf",
-										"load.44" : "Techno Conga Beat 04.caf",
-										"load.45" : "Techno Crying For Synth.caf",
-										"load.46" : "Techno Dark Sky Bass.caf",
-										"load.47" : "Techno Dark Sky FX 01.caf",
-										"load.48" : "Techno Dark Sky FX 02.caf",
-										"load.49" : "Techno Dark Sky Synth 01.caf",
-										"load.50" : "Techno Dark Sky Synth 02.caf",
-										"load.51" : "Techno Dark Sky Synth 03.caf",
-										"load.52" : "Techno Festival Bass 01.caf",
-										"load.53" : "Techno Festival Beat.caf",
-										"load.54" : "Techno Festival FX.caf",
-										"load.55" : "Techno Festival Piano.caf",
-										"load.56" : "Techno Festival Synth 01.caf",
-										"load.57" : "Techno Festival Synth 02.caf",
-										"load.58" : "Techno Festival Synth 03.caf",
-										"load.59" : "Techno Festival Synth 04.caf",
-										"load.60" : "Techno Festival Synth 05.caf",
-										"load.61" : "Techno Festival Synth 06.caf",
-										"load.62" : "Techno Folds Upon Beat.caf",
-										"load.63" : "Techno Hopscotch Beat 01.caf",
-										"load.64" : "Techno Hopscotch Beat 02.caf",
-										"load.65" : "Techno Inner Bass 01.caf",
-										"load.66" : "Techno Inner Bass 02.caf",
-										"load.67" : "Techno Inner Synth 01.caf",
-										"load.68" : "Techno Inner Synth 02.caf",
-										"load.69" : "Techno Inner Synth 03.caf",
-										"load.70" : "Techno Inner Synth 04.caf",
-										"load.71" : "Techno Inner Synth 05.caf",
-										"load.72" : "Techno Inner Synth 06.caf",
-										"load.73" : "Techno Jackhammer Beat 01.caf",
-										"load.74" : "Techno Jackhammer Beat 02.caf",
-										"load.75" : "Techno Jackhammer Beat 03.caf",
-										"load.76" : "Techno Jackhammer Beat 04.caf",
-										"load.77" : "Techno Latin Bot Beat 01.caf",
-										"load.78" : "Techno Latin Bot Beat 02.caf",
-										"load.79" : "Techno Latin Bot Beat 03.caf",
-										"load.80" : "Techno Latin Bot Beat 04.caf",
-										"load.81" : "Techno Liquid Beat 01.caf",
-										"load.82" : "Techno Liquid Beat 02.caf",
-										"load.83" : "Techno Locomotive Beat 01.caf",
-										"load.84" : "Techno Locomotive Beat 02.caf",
-										"load.85" : "Techno Locomotive Beat 03.caf",
-										"load.86" : "Techno Locomotive Beat 04.caf",
-										"load.87" : "Techno Morse Future Synth.caf",
-										"load.88" : "Techno Mutant Beat 01.caf",
-										"load.89" : "Techno Mutant Beat 02.caf",
-										"load.90" : "Techno Mutant Beat 03.caf",
-										"load.91" : "Techno Mutant Beat 04.caf",
-										"load.92" : "Techno No Escape Beat.caf",
-										"load.93" : "Techno Phase Bass 01.caf",
-										"load.94" : "Techno Phase Bass 02.caf",
-										"load.95" : "Techno Razor Beat 01.caf",
-										"load.96" : "Techno Razor Beat 02.caf",
-										"load.97" : "Techno Reactor Beat 01.caf",
-										"load.98" : "Techno Reactor Beat 02.caf",
-										"load.99" : "Techno Reactor Beat 03.caf",
-										"load.100" : "Techno Reactor Beat 04.caf",
-										"load.101" : "Techno Reverse Beat 01.caf",
-										"load.102" : "Techno Reverse Beat 02.caf",
-										"load.103" : "Techno Reverse Beat 03.caf",
-										"load.104" : "Techno Reverse Beat 04.caf",
-										"load.105" : "Techno Robot Vox Beat 01.caf",
-										"load.106" : "Techno Robot Vox Beat 02.caf",
-										"load.107" : "Techno Rolling Beat 01.caf",
-										"load.108" : "Techno Rolling Beat 02.caf",
-										"load.109" : "Techno Rolling Beat 03.caf",
-										"load.110" : "Techno Rolling Beat 04.caf",
-										"load.111" : "Techno Runner Beat 01.caf",
-										"load.112" : "Techno Runner Beat 02.caf",
-										"load.113" : "Techno Runner Beat 03.caf",
-										"load.114" : "Techno Runner Beat 04.caf",
-										"load.115" : "Techno Runner Beat 05.caf",
-										"load.116" : "Techno Runner Beat 06.caf",
-										"load.117" : "Techno Runner Beat 07.caf",
-										"load.118" : "Techno Runner Beat 08.caf",
-										"load.119" : "Techno Soft Step Beat 01.caf",
-										"load.120" : "Techno Soft Step Beat 02.caf",
-										"load.121" : "Techno Spin Cycle Beat 01.caf",
-										"load.122" : "Techno Spin Cycle Beat 02.caf",
-										"load.123" : "Techno Spokes Beat 01.caf",
-										"load.124" : "Techno Spokes Beat 02.caf",
-										"load.125" : "Techno Spokes Beat 03.caf",
-										"load.126" : "Techno Spokes Beat 04.caf",
-										"load.127" : "Techno Storm Beat 01.caf",
-										"load.128" : "Techno Storm Beat 02.caf",
-										"load.129" : "Techno Stretcher Beat 01.caf",
-										"load.130" : "Techno Stretcher Beat 02.caf",
-										"load.131" : "Techno Substance Beat 01.caf",
-										"load.132" : "Techno Substance Beat 02.caf",
-										"load.133" : "Techno Sweeper Beat 01.caf",
-										"load.134" : "Techno Sweeper Beat 02.caf",
-										"load.135" : "Techno Sweeper Beat 03.caf",
-										"load.136" : "Techno Sweeper Beat 04.caf",
-										"load.137" : "Techno Tribal Beat 01.caf",
-										"load.138" : "Techno Tribal Beat 02.caf"
+										"load.1" : "Techno Mutant Beat 02.caf",
+										"load.2" : "Techno Mutant Beat 03.caf",
+										"load.3" : "Techno Mutant Beat 04.caf",
+										"load.4" : "Techno No Escape Beat.caf",
+										"load.5" : "Techno Phase Bass 01.caf",
+										"load.6" : "Techno Phase Bass 02.caf",
+										"load.7" : "Techno Razor Beat 01.caf",
+										"load.8" : "Techno Razor Beat 02.caf",
+										"load.9" : "Techno Reactor Beat 01.caf",
+										"load.10" : "Techno Reactor Beat 02.caf",
+										"load.11" : "Techno Reactor Beat 03.caf",
+										"load.12" : "Techno Reactor Beat 04.caf",
+										"load.13" : "Techno Reverse Beat 01.caf",
+										"load.14" : "Techno Reverse Beat 02.caf",
+										"load.15" : "Techno Reverse Beat 03.caf",
+										"load.16" : "Techno Reverse Beat 04.caf",
+										"load.17" : "Techno Robot Vox Beat 01.caf",
+										"load.18" : "Techno Robot Vox Beat 02.caf",
+										"load.19" : "Techno Rolling Beat 01.caf",
+										"load.20" : "Techno Rolling Beat 02.caf",
+										"load.21" : "Techno Rolling Beat 03.caf",
+										"load.22" : "Techno Rolling Beat 04.caf",
+										"load.23" : "Techno Runner Beat 01.caf",
+										"load.24" : "Techno Runner Beat 02.caf",
+										"load.25" : "Techno Runner Beat 03.caf",
+										"load.26" : "Techno Runner Beat 04.caf",
+										"load.27" : "Techno Runner Beat 05.caf",
+										"load.28" : "Techno Runner Beat 06.caf",
+										"load.29" : "Techno Runner Beat 07.caf",
+										"load.30" : "Techno Runner Beat 08.caf",
+										"load.31" : "Techno Soft Step Beat 01.caf",
+										"load.32" : "Techno Soft Step Beat 02.caf",
+										"load.33" : "Techno Spin Cycle Beat 01.caf",
+										"load.34" : "Techno Spin Cycle Beat 02.caf",
+										"load.35" : "Techno Spokes Beat 01.caf",
+										"load.36" : "Techno Spokes Beat 02.caf",
+										"load.37" : "Techno Spokes Beat 03.caf",
+										"load.38" : "Techno Spokes Beat 04.caf",
+										"load.39" : "Techno Storm Beat 01.caf",
+										"load.40" : "Techno Storm Beat 02.caf",
+										"load.41" : "Techno Stretcher Beat 01.caf",
+										"load.42" : "Techno Stretcher Beat 02.caf",
+										"load.43" : "Techno Substance Beat 01.caf",
+										"load.44" : "Techno Substance Beat 02.caf",
+										"load.45" : "Techno Sweeper Beat 01.caf",
+										"load.46" : "Techno Sweeper Beat 02.caf",
+										"load.47" : "Techno Sweeper Beat 03.caf",
+										"load.48" : "Techno Sweeper Beat 04.caf",
+										"load.49" : "Techno Tribal Beat 01.caf",
+										"load.50" : "Techno Tribal Beat 02.caf"
 									}
 ,
 									"id" : "obj-39",
@@ -2842,7 +2719,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2912,7 +2789,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3349,7 +3226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3793,7 +3670,7 @@
 										"filename" : "Max Compressor.amxd_20220218.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "ce214dbdae7bdcf56917e9392ec22334"
+										"snapshotfileid" : "6180a0b4f17d5006563bd630817be592"
 									}
 
 								}
@@ -4358,6 +4235,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"midpoints" : [ 132.916666388511658, 718.938034027814865, 257.366466864943504, 718.938034027814865 ],
+					"order" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -4517,35 +4403,105 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-168", 0 ],
-					"source" : [ "obj-93", 0 ]
-				}
+ ],
+		"parameters" : 		{
+			"obj-128::obj-49" : [ "amxd~[20]", "amxd~", 0 ],
+			"obj-136::obj-49" : [ "number[1]", "number[1]", 0 ],
+			"obj-168::obj-19" : [ "umenu", "umenu", 0 ],
+			"obj-168::obj-20" : [ "number[2]", "number[2]", 0 ],
+			"obj-168::obj-25" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-168::obj-28" : [ "number", "number", 0 ],
+			"obj-168::obj-35" : [ "button", "button", 0 ],
+			"obj-2" : [ "number[3]", "number[22]", 0 ],
+			"obj-225" : [ "gain~[1]", "gain~", 0 ],
+			"obj-278" : [ "amxd~[4]", "amxd~[4]", 0 ],
+			"obj-32::obj-409" : [ "amxd~[1]", "amxd~[7]", 0 ],
+			"obj-32::obj-412" : [ "toggle[2]", "toggle[9]", 0 ],
+			"obj-34" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-4" : [ "toggle", "toggle", 0 ],
+			"obj-51" : [ "rslider[2]", "rslider[1]", 0 ],
+			"obj-63" : [ "number[20]", "number[20]", 0 ],
+			"parameterbanks" : 			{
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Max Compressor.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max Compressor",
+				"type" : "amxd",
+				"implicit" : 1
 			}
 , 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-95", 0 ]
-				}
-
+				"name" : "Max Compressor.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
 			}
 , 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
+				"name" : "Max Compressor.amxd_20220218.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stutterer.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Stutterer",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stutterer.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stutterer.amxd_20220218.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stutterer.amxd_20220218_1.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Stutterer.amxd_20220218_2.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bve.grainlooper.amxd",
+				"bootpath" : "~/Documents/Max 8/Library/NMPClass2022/22.04-LucasinOne",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bve.grainlooper.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -4593,8 +4549,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -4604,8 +4560,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -4615,8 +4571,8 @@
 , 			{
 				"name" : "Default M4L Poletti-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"fontsize" : [ 11.0 ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
@@ -4626,7 +4582,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4636,8 +4591,9 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4663,9 +4619,8 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4676,10 +4631,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4688,8 +4644,8 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ]
 				}
 ,
@@ -4709,7 +4665,6 @@
 , 			{
 				"name" : "Manuel-11B",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4719,8 +4674,9 @@
 						"proportion" : 0.39
 					}
 ,
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4729,8 +4685,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5014,7 +4970,7 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
-					"fontsize" : [ 18.0 ],
+					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -5026,10 +4982,10 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "HydrogenType" ],
-					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
+					"fontsize" : [ 18.0 ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ]
 				}
 ,
@@ -5039,8 +4995,7 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 9.0 ],
+					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -5051,10 +5006,11 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Geneva" ],
-					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontname" : [ "Geneva" ],
+					"fontsize" : [ 9.0 ],
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5109,9 +5065,9 @@
 				"name" : "classicKslider",
 				"default" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5149,9 +5105,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5245,8 +5201,8 @@
 , 			{
 				"name" : "classicWaveform~",
 				"default" : 				{
-					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ],
-					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ]
+					"color" : [ 0.380392, 0.380392, 0.380392, 1.0 ],
+					"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5255,7 +5211,7 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5265,8 +5221,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ]
+					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5275,8 +5231,8 @@
 , 			{
 				"name" : "instruct key",
 				"default" : 				{
-					"textcolor" : [ 0.261802, 0.646774, 0.650603, 1.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"textcolor" : [ 0.261802, 0.646774, 0.650603, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5285,7 +5241,7 @@
 , 			{
 				"name" : "irv",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -5297,10 +5253,10 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Inconsolata Regular" ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"fontname" : [ "Inconsolata Regular" ],
+					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.9 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5309,7 +5265,6 @@
 , 			{
 				"name" : "jbb",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5319,7 +5274,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5333,7 +5289,6 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
-					"fontsize" : [ 9.5 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
@@ -5343,8 +5298,9 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontname" : [ "Ableton Sans Book" ],
 					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
+					"fontname" : [ "Ableton Sans Book" ],
+					"fontsize" : [ 9.5 ],
 					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ]
 				}
 ,
@@ -5354,9 +5310,8 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -5368,10 +5323,11 @@
 					}
 ,
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5399,9 +5355,9 @@
 , 			{
 				"name" : "max6box",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5419,7 +5375,6 @@
 , 			{
 				"name" : "max6message",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -5429,7 +5384,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "max6box",
@@ -5492,8 +5448,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5502,8 +5458,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5521,8 +5477,8 @@
 , 			{
 				"name" : "purple",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5559,9 +5515,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontface" : [ 1 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5600,8 +5556,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5610,11 +5566,11 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"fontsize" : [ 36.0 ],
-					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"fontname" : [ "Dirty Ego" ],
-					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ]
+					"fontsize" : [ 36.0 ],
+					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
+					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
